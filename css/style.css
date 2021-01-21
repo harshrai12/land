@@ -14,26 +14,16 @@ body {
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
-.countdown-timer{
-  
-  width:50px;
-}
-
-.ctflogo{
-  position: relative;
-  width: 50%;
-  filter: drop-shadow(0 0 .75rem #ffef0c);
-}
 
 a {
-  color: #00d331;
+  color: #f82249;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #3ff823;
+  color: #f8234a;
   outline: none;
   text-decoration: none;
 }
@@ -82,7 +72,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #26f822;
+  background: #f82249;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -99,13 +89,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #07e00e;
+  background: #e0072f;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #73e007;
+  background: #e0072f;
   color: #fff;
 }
 
@@ -124,7 +114,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #22f830;
+  background: #f82249;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -185,7 +175,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #34f822;
+  color: #f82249;
 }
 
 #header #logo h1 a,
@@ -298,7 +288,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #02dc59;
+  background-color: #f82249;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -312,10 +302,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #22f842;
+  background: #f82249;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #22f830;
+  border: 2px solid #f82249;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -356,7 +346,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #22f85f;
+  background: #f82249;
   color: #fff;
 }
 
@@ -423,7 +413,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #22f842;
+  color: #f82249;
 }
 
 #mobile-nav ul li li {
@@ -440,11 +430,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #22f854;
+  color: #f82249;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #22f871;
+  color: #f82249;
 }
 
 #mobile-body-overly {
@@ -479,24 +469,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  
+  background: url(../img/intro-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
 }
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -10;
-}
 
 #intro:before {
   content: "";
-  
+  background: rgba(6, 12, 34, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -841,7 +822,7 @@ video {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #0ad132;
+  background-color: #f82249;
   color: #fff;
 }
 
