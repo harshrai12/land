@@ -13,6 +13,32 @@ body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
+
+  clip: rect(0, 100px, 200px, 0);
+}
+
+.whole-site {
+  margin-top: -60%;
+}
+
+#myVideo {
+
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 a {
@@ -109,7 +135,7 @@ h6 {
 }
 
 .section-header::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 60px;
@@ -155,13 +181,7 @@ h6 {
   z-index: 997;
 }
 
-#header.header-scrolled,
-#header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
-  height: 70px;
-  padding: 15px 0;
-  transition: all 0.5s;
-}
+
 
 #header #logo h1 {
   font-size: 36px;
@@ -537,7 +557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -553,7 +573,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -582,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -834,7 +854,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .tab-pane {
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
 }
 
 #schedule .schedule-item {
@@ -1218,7 +1238,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1624,6 +1644,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
+  #myVideo {
+
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 800px;
+  }
+
+
   .back-to-top {
     bottom: 15px;
   }
