@@ -17,9 +17,11 @@ body {
   clip: rect(0, 100px, 200px, 0);
 }
 
-.img-fluid{
-  filter: drop-shadow( rgb(0, 0, 0));
+.img-flui{
+  width:150px;
 }
+
+
 
 .whole-site {
   margin-top: -60%;
