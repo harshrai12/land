@@ -16,19 +16,23 @@ body {
 
   clip: rect(0, 100px, 200px, 0);
 }
-
-.img-flui{
-  width:150px;
+.time1{
+  font-size:50%;
 }
 
+.fronlogo {
+  width: 80%;
+}
 
+.img-flui {
+  width: 150px;
+}
 
 .whole-site {
   margin-top: -60%;
 }
 
 #myVideo {
-
   right: 0;
   bottom: 0;
   width: 100%;
@@ -186,8 +190,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
 }
-
-
 
 #header #logo h1 {
   font-size: 36px;
@@ -495,15 +497,33 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
 }
+.container4 {
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+  position: relative;
+  top: -15%;
+}
+.container {
+  position: relative;
+  top: -15%;
+}
 
+.regbutton {
+  position: relative;
+  top: -15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -5%;
+}
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 66, 33, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1651,13 +1671,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   #myVideo {
-
     right: 0;
     bottom: 0;
     width: 100%;
     height: 800px;
   }
 
+  .fronlogo {
+    position: relative;
+    top:-10%;  
+      width: 100%;
+
+  }
+  .container4{
+    position: relative;
+    top: -20%;
+    font-size: 4px;
+    text-align: center;
+    margin-left: 21%;
+    width: 61%;
+    
+  }
+  .time{
+    font-size:"10%"
+  }
 
   .back-to-top {
     bottom: 15px;
